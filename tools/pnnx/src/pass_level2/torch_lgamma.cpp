@@ -16,7 +16,7 @@
 
 namespace pnnx {
 
-class torch_imag : public GraphRewriterPass
+class torch_lgamma : public GraphRewriterPass
 {
 public:
     const char* match_pattern_graph() const
